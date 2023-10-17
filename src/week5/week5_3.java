@@ -41,7 +41,6 @@ class Dog extends Animal {
 public class week5_3 {
 
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
         Cat cat = new Cat();
         System.out.println("=== 고양이 ===");
         cat.eat();
