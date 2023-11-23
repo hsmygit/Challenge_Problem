@@ -61,9 +61,9 @@ public class Challenge extends JFrame{
             });
         }
         public boolean isValid(){ // 두 텍스트 필드의 값이 정수인지 확인 or 빈칸인지 아닌지 확인.
-            if((a == null ) || (b == null ) )return false;//빈칸 확인 null인지 먼저 확인.
+            if((a == null ) || (b == null ) )return false;//텍스트 필드가 null인지 먼저 확인.
             else{
-                try{//입력 값이 정수인지 확인.
+                try{//입력 값이 정수인지 확인.(여기서 스페이스바만 입력 되는 경우가 걸러진다.)
                     Integer.parseInt(a.getText());
                     Integer.parseInt(b.getText());
                     return true;
