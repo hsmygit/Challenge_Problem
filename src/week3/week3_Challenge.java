@@ -1,3 +1,5 @@
+package week3;
+
 import java.util.Scanner;
 import java.util.Arrays;
 public class week3_Challenge {
